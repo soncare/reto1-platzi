@@ -205,3 +205,20 @@ body {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
+
+/*Sticky Footer*/
+html {
+  min-height: 100%;
+ /* position: relative;*/
+}
+
+footer {
+  bottom: 0;
+  height: 100px;
+  /*position: absolute;*/
+  width: 100%
+}
+
+.paginas {
+  margin-bottom: 2px;
+}
