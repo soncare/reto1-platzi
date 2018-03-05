@@ -222,3 +222,36 @@ footer {
 .paginas {
   margin-bottom: 2px;
 }
+
+.transicion {
+	transition: .3s;
+}
+
+.opacidad {
+	opacity: 0;
+}
+
+.principal {
+	transition: 1s;
+}
+
+.transicion:hover {
+	transform: scale(1.2);
+}
+
+.caja {
+	display: flex;
+	position: absolute;
+	border: 1px;
+	width: 200px;
+	height: 100px;
+	margin-top: -400px;
+	margin-left: 700px;
+	color: white;
+	background: peru;
+}
+
+.principal:hover div{
+	opacity: 1;
+	transform: rotate(360deg);
+}
